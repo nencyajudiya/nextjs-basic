@@ -1,5 +1,47 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
+/* Base styles */
 body {
   @apply bg-gray-50 text-gray-800;
+}
+
+/* Common utility classes */
+.container-main {
+  @apply max-w-7xl mx-auto px-4;
+}
+
+.btn-primary {
+  @apply bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 text-gray-800 px-4 py-2 rounded-md hover:bg-gray-300 transition-colors;
+}
+
+.text-primary {
+  @apply text-indigo-600;
+}
+
+.text-secondary {
+  @apply text-gray-600;
+}
+
+.link-hover {
+  @apply hover:text-indigo-600 transition-colors;
+}
+
+.card-base {
+  @apply bg-white rounded-lg shadow-md p-6;
+}
+
+.input-base {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent;
+}
+
+.error-text {
+  @apply text-red-600 text-sm mt-1;
+}
+
+.success-text {
+  @apply text-green-600 text-sm mt-1;
 }

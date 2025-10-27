@@ -1,10 +1,10 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import "./globals.css";
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import './globals.css';
 
 export const metadata = {
-  title: "My Portfolio",
-  description: "Personal Portfolio built with Next.js 13",
+  title: 'My Portfolio',
+  description: 'Personal Portfolio built with Next.js 13',
 };
 
 export default function RootLayout({ children }) {
